@@ -1,0 +1,39 @@
+EventId : 2, Level : Informational, Message : , Payload : [message : Starting] [info : ] , EventName : InfoInfo, Timestamp : 2016-03-04T22:51:55.6074202Z, ProcessId : 6756, ThreadId : 27640
+
+EventId : 2, Level : Informational, Message : , Payload : [message :  Initialize TLS endpoint on port 8883 with certificate 3644CF690C0328403711156A16E184323BC99CC5.] [info : ] , EventName : InfoInfo, Timestamp : 2016-03-04T22:51:55.6464472Z, ProcessId : 6756, ThreadId : 27640
+
+EventId : 2, Level : Informational, Message : , Payload : [message : Initializing endpoint on port 1883.] [info : ] , EventName : InfoInfo, Timestamp : 2016-03-04T22:51:55.6724563Z, ProcessId : 6756, ThreadId : 30124
+
+EventId : 2, Level : Informational, Message : , Payload : [message : Started] [info : ] , EventName : InfoInfo, Timestamp : 2016-03-04T22:51:55.6754576Z, ProcessId : 6756, ThreadId : 30124
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Decoded packet.] [info : ConnectPacket[Type=CONNECT, QualityOfService=AtMostOnce, Duplicate=False, Retain=False]] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:53:57.9425829Z, ProcessId : 6756, ThreadId : 24888
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Encoded packet.] [info : ConnAckPacket[Type=CONNACK, QualityOfService=AtMostOnce, Duplicate=False, Retain=False]] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:02.3396435Z, ProcessId : 6756, ThreadId : 24888
+
+EventId : 3, Level : Warning, Message : , Payload : [message : Closing connection ([::ffff:127.0.0.1]:14915, IA110511): Exception occured (CONNECT): Microsoft.Azure.Devices.Client.Exceptions.DeviceNotFoundException: Put token failed. status-code: 404, status-description: "Device IA110511 at IotHub IoTHubFuncTest not registered".
+   at Microsoft.Azure.Devices.Client.AmqpDeviceClient.<OnOpenAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.Azure.Devices.ProtocolGateway.Mqtt.IotHubDeviceClient.<CreateFromConnectionStringAsync>d__2.MoveNext() in D:\FCCIotHub\Protocol Gateway\src\ProtocolGateway.Core\Mqtt\IotHubDeviceClient.cs:line 23
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.Azure.Devices.ProtocolGateway.Mqtt.MqttIotHubAdapter.<Connect>d__78.MoveNext() in D:\FCCIotHub\Protocol Gateway\src\ProtocolGateway.Core\Mqtt\MqttIotHubAdapter.cs:line 1006] [exception : ] , EventName : WarningInfo, Timestamp : 2016-03-04T22:54:02.3546665Z, ProcessId : 6756, ThreadId : 24888
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Decoded packet.] [info : ConnectPacket[Type=CONNECT, QualityOfService=AtMostOnce, Duplicate=False, Retain=False]] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:09.1638027Z, ProcessId : 6756, ThreadId : 28236
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Encoded packet.] [info : ConnAckPacket[Type=CONNACK, QualityOfService=AtMostOnce, Duplicate=False, Retain=False]] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:10.8528329Z, ProcessId : 6756, ThreadId : 28236
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Connection established.] [info : qos2device] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:10.8538317Z, ProcessId : 6756, ThreadId : 28236
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Decoded packet.] [info : SubscribePacket[Type=SUBSCRIBE, QualityOfService=AtLeastOnce, Duplicate=False, Retain=False]] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:10.8818784Z, ProcessId : 6756, ThreadId : 28236
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Encoded packet.] [info : SubAckPacket[Type=SUBACK, QualityOfService=AtMostOnce, Duplicate=False, Retain=False]] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:11.1960649Z, ProcessId : 6756, ThreadId : 28236
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Decoded packet.] [info : DisconnectPacket[Type=DISCONNECT, QualityOfService=AtMostOnce, Duplicate=False, Retain=False]] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:18.6680650Z, ProcessId : 6756, ThreadId : 28236
+
+EventId : 1, Level : Verbose, Message : , Payload : [message : Disconnecting gracefully.] [info : qos2device] , EventName : VerboseInfo, Timestamp : 2016-03-04T22:54:18.6680650Z, ProcessId : 6756, ThreadId : 28236
+

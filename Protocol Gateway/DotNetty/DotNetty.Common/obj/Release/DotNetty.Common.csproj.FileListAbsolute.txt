@@ -1,0 +1,5 @@
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Common\bin\Release\DotNetty.Common.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Common\bin\Release\DotNetty.Common.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Common\obj\Release\DotNetty.Common.csprojResolveAssemblyReference.cache
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Common\obj\Release\DotNetty.Common.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Common\obj\Release\DotNetty.Common.pdb

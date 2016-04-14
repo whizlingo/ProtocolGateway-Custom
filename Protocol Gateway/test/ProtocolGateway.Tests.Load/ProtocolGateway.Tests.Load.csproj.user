@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-r stable 1 2 -c "HostName=whizlingo.azure-devices.net%3bSharedAccessKeyName=iothubowner%3bSharedAccessKey=7kDSN6hfLlcYp/uonB3ewAOr56sTW7rHnki5UX/LaDA=" -d N9Vr/R6IeAzh8YJpLTAhfA== -l N9Vr/R6IeAzh8YJpLTAhfA== -H localhost -s 77777</StartArguments>
+  </PropertyGroup>
+</Project>

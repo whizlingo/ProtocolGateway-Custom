@@ -1,0 +1,32 @@
+<appSettings>
+  <add key="IoTHubConnectionString" value="HostName=IoTHubFuncTest.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=VDlCXnpUjxM+5RuYXqYUhkpp3TGoySmEyGsYuf+q7cM=" />
+  <add key="MaxPendingInboundMessages" value="10" />
+  <!-- default: 16 -->
+  <add key="MaxPendingOutboundMessages" value="10" />
+  <!-- default: 1 -->
+  <add key="DeviceReceiveAckTimeout" value="00:01:00" />
+  <!-- default: no timeout -->
+  <add key="MaxOutboundRetransmissionCount" value="2" />
+  <!-- default: -1 -->
+  <add key="MaxInboundMessageSize" value="262144" />
+  <!-- 256KB -->
+  <add key="ConnectArrivalTimeout" value="00:01:00" />
+  <!-- default: no timeout -->
+  <add key="MaxKeepAliveTimeout" value="00:10:00" />
+  <!-- default: no limit -->
+  <add key="DefaultPublishToClientQoS" value="2" />
+  <!-- default: 1 -->
+  <add key="RetainPropertyName" value="mqtt-retain" />
+  <!-- default: mqtt-retain -->
+  <add key="DupPropertyName" value="mqtt-dup" />
+  <!-- default: mqtt-dup -->
+  <add key="QoSPropertyName" value="mqtt-qos" />
+  
+  <add key="IsNonTLSEnabled" value="true" />
+  <!-- default: mqtt-qos -->
+  <add key="BlobSessionStatePersistenceProvider.StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=iothubstoragefunctest;AccountKey=quPMT+DqVn6eLoIdm/hb+ZqF+i9Ga7Q4r2vs8UQUemud1c4fVBYmP5t/k2o7keEJPoz1M0elgmMxThppxdW45Q==" />
+  <add key="BlobSessionStatePersistenceProvider.StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=iothubstoragefunctest;AccountKey=quPMT+DqVn6eLoIdm/hb+ZqF+i9Ga7Q4r2vs8UQUemud1c4fVBYmP5t/k2o7keEJPoz1M0elgmMxThppxdW45Q==" />
+  <add key="BlobSessionStatePersistenceProvider.StorageContainerName" value="mqtt-sessions" />
+  <add key="TableQos2StatePersistenceProvider.StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=iothubstoragefunctest;AccountKey=quPMT+DqVn6eLoIdm/hb+ZqF+i9Ga7Q4r2vs8UQUemud1c4fVBYmP5t/k2o7keEJPoz1M0elgmMxThppxdW45Q==" />
+  <add key="TableQos2StatePersistenceProvider.StorageTableName" value="mqttqos2" />
+</appSettings>

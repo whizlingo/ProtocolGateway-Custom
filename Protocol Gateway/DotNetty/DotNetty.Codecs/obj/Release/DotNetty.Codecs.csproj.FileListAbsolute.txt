@@ -1,0 +1,11 @@
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Codecs.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Codecs.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Buffers.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Common.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Transport.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Buffers.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Common.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\bin\Release\DotNetty.Transport.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\obj\Release\DotNetty.Codecs.csprojResolveAssemblyReference.cache
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\obj\Release\DotNetty.Codecs.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs\obj\Release\DotNetty.Codecs.pdb

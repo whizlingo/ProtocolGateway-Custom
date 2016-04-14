@@ -1,0 +1,9 @@
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\bin\Release\DotNetty.Transport.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\bin\Release\DotNetty.Transport.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\bin\Release\DotNetty.Buffers.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\bin\Release\DotNetty.Common.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\bin\Release\DotNetty.Buffers.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\bin\Release\DotNetty.Common.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\obj\Release\DotNetty.Transport.csprojResolveAssemblyReference.cache
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\obj\Release\DotNetty.Transport.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Transport\obj\Release\DotNetty.Transport.pdb

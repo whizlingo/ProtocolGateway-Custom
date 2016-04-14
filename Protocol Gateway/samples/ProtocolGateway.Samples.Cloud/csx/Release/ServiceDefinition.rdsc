@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<serviceContract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dslVersion="1.0.0.0" name="Contoso.ProtocolGatewayContract" xmlns="http://schemas.microsoft.com/dsltools/Contracts">
+  <elements>
+    <interface name="ProtocolGateway.Samples.Cloud.Host:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" url="tcp://*:3389" />
+    <interface name="ProtocolGateway.Samples.Cloud.Host:MQTT" url="tcp://*:1883" />
+    <interface name="ProtocolGateway.Samples.Cloud.Host:MQTTS" url="tcp://*:8883" />
+  </elements>
+</serviceContract>

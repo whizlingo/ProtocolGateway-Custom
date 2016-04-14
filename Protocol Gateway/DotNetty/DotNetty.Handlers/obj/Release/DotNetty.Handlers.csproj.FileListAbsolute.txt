@@ -1,0 +1,13 @@
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Handlers.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Handlers.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Buffers.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Codecs.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Common.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Transport.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Buffers.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Codecs.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Common.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\bin\Release\DotNetty.Transport.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\obj\Release\DotNetty.Handlers.csprojResolveAssemblyReference.cache
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\obj\Release\DotNetty.Handlers.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Handlers\obj\Release\DotNetty.Handlers.pdb

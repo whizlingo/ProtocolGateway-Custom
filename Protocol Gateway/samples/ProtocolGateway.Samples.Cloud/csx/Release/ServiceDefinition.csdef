@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Contoso.ProtocolGateway" schemaVersion="2015-04.2.6" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WorkerRole name="ProtocolGateway.Samples.Cloud.Host" vmsize="Medium">
+    <LocalResources>
+      <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
+    </LocalResources>
+    <ConfigurationSettings>
+      <Setting name="BlobSessionStatePersistenceProvider.StorageConnectionString" />
+      <Setting name="BlobSessionStatePersistenceProvider.StorageContainerName" />
+      <Setting name="ConnectArrivalTimeout" />
+      <Setting name="DefaultPublishToClientQoS" />
+      <Setting name="DeviceReceiveAckTimeout" />
+      <Setting name="DupPropertyName" />
+      <Setting name="IoTHubConnectionString" />
+      <Setting name="IsNonTLSEnabled" />
+      <Setting name="MaxInboundMessageSize" />
+      <Setting name="MaxKeepAliveTimeout" />
+      <Setting name="MaxOutboundRetransmissionCount" />
+      <Setting name="MaxPendingInboundMessages" />
+      <Setting name="MaxPendingOutboundMessages" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" />
+      <Setting name="QoSPropertyName" />
+      <Setting name="RetainPropertyName" />
+      <Setting name="TableQos2StatePersistenceProvider.StorageConnectionString" />
+      <Setting name="TableQos2StatePersistenceProvider.StorageTableName" />
+      <Setting name="TlsCertificateThumbprint" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" protocol="tcp" port="3389" localPort="*" ignoreRoleInstanceStatus="true" />
+      <InputEndpoint name="MQTT" protocol="tcp" port="1883" localPort="1883" />
+      <InputEndpoint name="MQTTS" protocol="tcp" port="8883" localPort="8883" />
+      <InternalEndpoint name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp">
+        <FixedPortRange min="3389" max="3389" />
+      </InternalEndpoint>
+    </Endpoints>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" storeLocation="LocalMachine" storeName="My" />
+      <Certificate name="TlsCertificate" storeLocation="LocalMachine" storeName="My" />
+    </Certificates>
+  </WorkerRole>
+</ServiceDefinition>

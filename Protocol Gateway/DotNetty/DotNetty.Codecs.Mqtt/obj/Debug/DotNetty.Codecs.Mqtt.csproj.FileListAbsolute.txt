@@ -1,0 +1,9 @@
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\obj\Debug\DotNetty.Codecs.Mqtt.csprojResolveAssemblyReference.cache
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\bin\Debug\DotNetty.Codecs.Mqtt.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\bin\Debug\DotNetty.Codecs.Mqtt.pdb
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\bin\Debug\DotNetty.Buffers.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\bin\Debug\DotNetty.Codecs.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\bin\Debug\DotNetty.Common.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\bin\Debug\DotNetty.Transport.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\obj\Debug\DotNetty.Codecs.Mqtt.dll
+D:\FCCIotHub\Protocol Gateway\DotNetty\DotNetty.Codecs.Mqtt\obj\Debug\DotNetty.Codecs.Mqtt.pdb
